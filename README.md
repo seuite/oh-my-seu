@@ -18,8 +18,7 @@ OR download `oh-my-seu.py`, then running it by
 ```bash
 sudo python oh-my-seu.py --global
 ```
-
-Change system-wide settings instead of user-wide.
+The --global option means changing system-wide settings instead of user-wide. You could change it as your wish.
 
 Get help:
 ```bash
