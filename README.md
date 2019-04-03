@@ -8,16 +8,18 @@ oh-my-seu
 Usage
 ==========================
 
-The simple way:
+The simple way by using curl:
 ```bash
-wget https://github.com/seu-ite/oh-my-seu/oh-my-seu.py
-python3 oh-my-seu.py
+curl -fsSL https://raw.githubusercontent.com/seuite/oh-my-seu/master/oh-my-seu.py | python3
 ```
 
-Change system-wide settings instead of user-wide:
+OR download `oh-my-seu.py`, then running it by 
+
 ```bash
 sudo python oh-my-seu.py --global
 ```
+
+Change system-wide settings instead of user-wide.
 
 Get help:
 ```bash
